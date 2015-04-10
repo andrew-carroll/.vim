@@ -15,5 +15,6 @@ Plugin 'tsaleh/vim-shoulda'
 Plugin 'ervandew/supertab'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
