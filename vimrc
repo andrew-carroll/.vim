@@ -16,6 +16,8 @@ set ignorecase
 set smartcase
 set hlsearch
 set incsearch
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
 
 autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby let g:SuperTabDefaultCompletionType='context'
