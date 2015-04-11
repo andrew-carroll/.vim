@@ -6,6 +6,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set rnu
+set nu
 set fdm=syntax
 autocmd Filetype gitcommit setlocal spell textwidth=72
 filetype indent on
