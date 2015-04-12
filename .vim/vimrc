@@ -20,6 +20,8 @@ set hlsearch
 set incsearch
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
+set laststatus=2
+let g:airline_powerline_fonts=1
 
 autocmd FileType ruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby let g:SuperTabDefaultCompletionType='context'
