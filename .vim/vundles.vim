@@ -8,6 +8,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " plugins
 Plugin 'flazz/vim-colorschemes'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'slim-template/vim-slim'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
