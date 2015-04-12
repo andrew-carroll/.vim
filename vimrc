@@ -9,6 +9,7 @@ set rnu
 set nu
 set fdm=syntax
 autocmd Filetype gitcommit setlocal spell textwidth=72
+set diffopt+=vertical
 filetype indent on
 syntax enable
 colorscheme Monokai
