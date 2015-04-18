@@ -8,6 +8,10 @@ set shiftwidth=2
 set rnu
 set nu
 set fdm=syntax
+let mapleader = "\\"
+map <space> :
+map <CR> <Leader>
+
 autocmd Filetype gitcommit setlocal spell textwidth=72
 set diffopt+=vertical
 filetype indent on
