@@ -11,6 +11,7 @@ set fdm=syntax
 let mapleader = "\\"
 map <space> :
 map <CR> <Leader>
+inoremap jk <Esc>
 
 autocmd Filetype gitcommit setlocal spell textwidth=72
 set diffopt+=vertical
