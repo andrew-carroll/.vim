@@ -14,6 +14,7 @@ map <CR> <Leader>
 inoremap jk <Esc>
 
 autocmd Filetype gitcommit setlocal spell textwidth=72
+autocmd Filetype gitcommit set nospell
 set diffopt+=vertical
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gd :Gdiff<CR>
