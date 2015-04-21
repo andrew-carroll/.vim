@@ -12,6 +12,9 @@ let mapleader = "\\"
 map <space> :
 map <CR> <Leader>
 inoremap jk <Esc>
+set breakindent
+set linebreak
+set showbreak=↪\ 
 
 autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd Filetype gitcommit set nospell
