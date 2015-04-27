@@ -1,29 +1,6 @@
 runtime vundles.vim
-set smartindent
-set autoindent
-set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set rnu
-set nu
-set fdm=syntax
-let mapleader = "\\"
-map <space> :
-map <CR> <Leader>
-inoremap jk <Esc>
-set breakindent
-set linebreak
-set showbreak=↪\ 
-
-autocmd Filetype gitcommit setlocal spell textwidth=72
-autocmd Filetype gitcommit set nospell
-set diffopt+=vertical
-nnoremap <Leader>gs :Gstatus<CR>
-nnoremap <Leader>gd :Gdiff<CR>
-nnoremap <Leader>gb :Gblame<CR>
-vnoremap dp :diffput<CR>
-vnoremap dg :diffget<CR>
+runtime gitconfig.vim
+runtime rubyconfig.vim
 
 filetype indent on
 syntax enable
@@ -37,9 +14,20 @@ highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 set laststatus=2
 let g:airline_powerline_fonts=1
+set smartindent
+set autoindent
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set rnu
+set nu
+set fdm=syntax
+set breakindent
+set linebreak
+set showbreak=↪\ 
 
-autocmd FileType ruby set omnifunc=rubycomplete#Complete
-autocmd FileType ruby let g:SuperTabDefaultCompletionType='context'
-let g:rubycomplete_buffer_loading = 1
-let g:rubycomplete_classes_in_global = 1
-let g:rubycomplete_rails = 1
+let mapleader = "\\"
+map <space> :
+map <CR> <Leader>
+inoremap jk <Esc>
