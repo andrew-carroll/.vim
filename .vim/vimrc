@@ -1,6 +1,7 @@
 runtime vundles.vim
 runtime gitconfig.vim
 runtime rubyconfig.vim
+runtime jsconfig.vim
 
 filetype indent on
 syntax enable

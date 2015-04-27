@@ -18,5 +18,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'bling/vim-airline'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
