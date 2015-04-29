@@ -10,3 +10,4 @@ alias prails="rails new -m /home/andrew/pj/rails-app-templates/personal.rb"
 alias dog="highlight -O ansi"
 alias dim='echo -e "lines\ncols"|tput -S'
 alias lesser="less -r"
+alias jk="exit" 
