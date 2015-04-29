@@ -19,5 +19,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'bling/vim-airline'
 Plugin 'mxw/vim-jsx'
+Plugin 'Keithbsmiley/tmux.vim'
 
 call vundle#end()
