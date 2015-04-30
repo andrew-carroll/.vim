@@ -1,3 +1,4 @@
+alias v="vim"
 alias bi="bundle install"
 alias be="bundle exec"
 alias rc="rails console"
