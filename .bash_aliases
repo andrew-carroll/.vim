@@ -6,7 +6,6 @@ alias rs="rails server"
 alias rdb="rails dbconsole"
 alias rg="rails generate"
 alias rd="rails destroy"
-#alias trails="rails new -m http://www.railswizard.org/9d7a4e6a8229417feda6.rb -J -T"
 alias prails="rails new -m /home/andrew/pj/rails-app-templates/personal.rb"
 alias dog="highlight -O ansi"
 alias dim='echo -e "lines\ncols"|tput -S'
