@@ -12,3 +12,4 @@ alias dog="highlight -O ansi"
 alias dim='echo -e "lines\ncols"|tput -S'
 alias lesser="less -r"
 alias jk="exit" 
+alias _reset_keys="setxkbmap -layout us; xmodmap $HOME/.Xmodmap"
