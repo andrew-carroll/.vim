@@ -21,5 +21,6 @@ Plugin 'bling/vim-airline'
 Plugin 'mxw/vim-jsx'
 Plugin 'Keithbsmiley/tmux.vim'
 Plugin 'tpope/vim-vinegar'
+Plugin 'othree/html5.vim'
 
 call vundle#end()
