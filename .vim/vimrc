@@ -33,3 +33,4 @@ map <CR> <Leader>
 inoremap jk <Esc>
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
+nnoremap <C-t> :tabe<CR>
