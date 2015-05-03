@@ -31,3 +31,5 @@ let mapleader = "\\"
 map <space> :
 map <CR> <Leader>
 inoremap jk <Esc>
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
