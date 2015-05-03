@@ -2,6 +2,7 @@ runtime vundles.vim
 runtime gitconfig.vim
 runtime rubyconfig.vim
 runtime jsconfig.vim
+runtime airlineconfig.vim
 
 filetype indent on
 syntax enable
@@ -13,8 +14,6 @@ set hlsearch
 set incsearch
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
-set laststatus=2
-let g:airline_powerline_fonts=1
 set smartindent
 set autoindent
 set expandtab
