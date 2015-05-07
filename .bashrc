@@ -190,3 +190,5 @@ if [ -z "$SCREEN_COLORS" ] ; then
     SCREEN_COLORS=`tput colors`
 fi
 
+set -o vi
+
