@@ -1,0 +1,16 @@
+[user]
+  name = Andrew Carroll
+  email = mrandrewcarroll@gmail.com
+[push]
+  default = simple
+[core]
+  editor = vim
+[alias]
+  co = checkout
+  cb = checkout -b
+  ci = commit
+  st = status
+  br = branch
+  la = log --oneline --all --decorate --graph
+  unstage = reset HEAD
+  cm = show -s --format=%B
