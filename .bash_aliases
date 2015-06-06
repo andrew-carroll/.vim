@@ -8,6 +8,7 @@ alias rg="rails generate"
 alias rd="rails destroy"
 alias prails="rails new -m /home/andrew/pj/rails-app-templates/personal.rb"
 alias dog="highlight -O ansi"
+alias drog="highlight -O ansi --syntax ruby"
 alias dim='echo -e "lines\ncols"|tput -S'
 alias lesser="less -r"
 alias jk="exit" 
