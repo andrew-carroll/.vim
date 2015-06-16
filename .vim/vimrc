@@ -46,3 +46,6 @@ inoremap jk <Esc>
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 nnoremap <C-t> :tabe .<CR>
+inoremap <CR> <CR>x<BS>
+nnoremap o ox<BS>
+nnoremap O Ox<BS>
