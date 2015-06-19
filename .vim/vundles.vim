@@ -22,5 +22,6 @@ Plugin 'mxw/vim-jsx'
 Plugin 'Keithbsmiley/tmux.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'othree/html5.vim'
+Plugin 'cakebaker/scss-syntax.vim'
 
 call vundle#end()
