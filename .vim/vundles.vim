@@ -26,5 +26,6 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'vim-scripts/vim-stylus'
+Plugin 'squarefrog/tomorrow-night.vim'
 
 call vundle#end()
