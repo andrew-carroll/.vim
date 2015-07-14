@@ -24,5 +24,7 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'othree/html5.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'vim-scripts/vim-stylus'
 
 call vundle#end()

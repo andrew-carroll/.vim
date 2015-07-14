@@ -40,7 +40,7 @@ set undofile
 set undodir=~/.vim/_undo/
 
 autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
-autocmd FileType slim setlocal foldmethod=indent
+autocmd FileType slim,stylus,jade setlocal foldmethod=indent
 
 let mapleader = "\\"
 map <space> :
