@@ -15,3 +15,5 @@
   unstage = reset HEAD
   cm = show -s --format=%B
   rb = rebase -i
+[github]
+	user = andrew-carroll
