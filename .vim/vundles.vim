@@ -27,5 +27,6 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'vim-scripts/vim-stylus'
 Plugin 'squarefrog/tomorrow-night.vim'
+Plugin 'jaxbot/browserlink.vim'
 
 call vundle#end()
