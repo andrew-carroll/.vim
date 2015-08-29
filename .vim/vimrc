@@ -27,6 +27,7 @@ set fdm=syntax
 set breakindent
 set linebreak
 set showbreak=↪\ 
+set hidden
 
 " swap files (.swp) in a common location
 " // means use the file's full path
