@@ -193,3 +193,5 @@ fi
 set -o vi
 export PATH="$(find $HOME/bin -maxdepth 1 -type d -exec abs "{}" \; | tr "\\n" ":")$PATH"
 
+[ -s "/home/andrew/.dnx/dnvm/dnvm.sh" ] && . "/home/andrew/.dnx/dnvm/dnvm.sh" # Load dnvm
+export MONO_MANAGED_WATCHER=disabled
