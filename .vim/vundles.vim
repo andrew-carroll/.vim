@@ -28,5 +28,6 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'vim-scripts/vim-stylus'
 Plugin 'squarefrog/tomorrow-night.vim'
 Plugin 'jaxbot/browserlink.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()

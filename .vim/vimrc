@@ -7,7 +7,7 @@ runtime airlineconfig.vim
 filetype indent on
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme tomorrow-night
 set backspace=indent,eol,start
 set ignorecase
 set smartcase
@@ -55,3 +55,4 @@ nnoremap <C-t> :tabe .<CR>
 inoremap <CR> <CR>x<BS>
 nnoremap o ox<BS>
 nnoremap O Ox<BS>
+nnoremap <Leader>ww :StripWhitespace<CR>
