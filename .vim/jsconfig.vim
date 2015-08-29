@@ -1,1 +1,1 @@
-let g:jsx_ext_required = 0 "allow jsx in js files
+let g:jsx_ext_required = 1 "disallow jsx in js files
