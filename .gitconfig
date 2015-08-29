@@ -17,3 +17,5 @@
   rb = rebase -i
 [github]
 	user = andrew-carroll
+[pager]
+	status = true
