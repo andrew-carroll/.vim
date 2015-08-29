@@ -43,6 +43,7 @@ set undodir=~/.vim/_undo/
 
 autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
 autocmd FileType slim,stylus,jade setlocal foldmethod=indent
+autocmd FileType javascript,javascript.jsx call JavaScriptFold()
 
 let mapleader = "\\"
 map <space> :
