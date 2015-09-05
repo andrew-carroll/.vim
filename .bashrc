@@ -191,7 +191,7 @@ if [ -z "$SCREEN_COLORS" ] ; then
 fi
 
 set -o vi
-export PATH="$(find $HOME/bin -maxdepth 1 -type d -exec abs "{}" \; | tr "\\n" ":")$PATH"
+export PATH="$(find $HOME/bin -maxdepth 1 -type d -exec readlink -f "{}" \; | tr "\\n" ":")$PATH"
 
 [ -s "/home/andrew/.dnx/dnvm/dnvm.sh" ] && . "/home/andrew/.dnx/dnvm/dnvm.sh" # Load dnvm
 export MONO_MANAGED_WATCHER=disabled
