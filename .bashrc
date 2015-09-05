@@ -198,3 +198,9 @@ export MONO_MANAGED_WATCHER=disabled
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+
+# BEGIN Ruboto setup
+source ~/.rubotorc
+# END Ruboto setup
+
