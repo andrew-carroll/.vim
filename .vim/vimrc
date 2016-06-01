@@ -6,8 +6,6 @@ runtime airlineconfig.vim
 
 filetype indent on
 syntax enable
-set background=dark
-colorscheme tomorrow-night
 set backspace=indent,eol,start
 set ignorecase
 set smartcase
@@ -44,6 +42,7 @@ set undodir=~/.vim/_undo/
 autocmd BufRead,BufNewFile *.css,*.scss,*.less setlocal foldmethod=marker foldmarker={,}
 autocmd FileType slim,stylus,jade setlocal foldmethod=indent
 autocmd FileType javascript,javascript.jsx call JavaScriptFold()
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
 let mapleader = "\\"
 map <space> :
@@ -56,3 +55,10 @@ inoremap <CR> <CR>x<BS>
 nnoremap o ox<BS>
 nnoremap O Ox<BS>
 nnoremap <Leader>ww :StripWhitespace<CR>
+
+command! Vimrc tabe ~/.vim/vimrc
+command! Vundle tabe ~/.vim/vundles.vim
+
+let test#strategy = "dispatch"
+noh
+colorscheme 256-grayvim

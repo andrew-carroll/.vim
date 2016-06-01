@@ -193,14 +193,21 @@ fi
 set -o vi
 export PATH="$(find $HOME/bin -maxdepth 1 -type d -exec readlink -f "{}" \; | tr "\\n" ":")$PATH"
 
-[ -s "/home/andrew/.dnx/dnvm/dnvm.sh" ] && . "/home/andrew/.dnx/dnvm/dnvm.sh" # Load dnvm
-export MONO_MANAGED_WATCHER=disabled
+#[ -s "/home/andrew/.dnx/dnvm/dnvm.sh" ] && . "/home/andrew/.dnx/dnvm/dnvm.sh" # Load dnvm
+#export MONO_MANAGED_WATCHER=disabled
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 
 # BEGIN Ruboto setup
-source ~/.rubotorc
+#source ~/.rubotorc
 # END Ruboto setup
 
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+#export GVM_DIR="/home/andrew/.gvm"
+#[[ -s "/home/andrew/.gvm/bin/gvm-init.sh" ]] && source "/home/andrew/.gvm/bin/gvm-init.sh"

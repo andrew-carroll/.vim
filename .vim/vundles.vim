@@ -31,5 +31,12 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'keith/rspec.vim'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-dispatch'
+Plugin 'janko-m/vim-test'
+Plugin 'rust-lang/rust.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'alvan/vim-closetag'
 
 call vundle#end()
